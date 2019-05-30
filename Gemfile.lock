@@ -1,19 +1,8 @@
-PATH
-  remote: mount_one
+GIT
+  remote: https://github.com/sogasusumu/mount_one.git
+  revision: 1f8ba7ebe440fe1be769eb028bfa094de6cbf895
   specs:
     mount_one (0.1.0)
-      rails (~> 5.2.3)
-
-PATH
-  remote: mount_three
-  specs:
-    mount_three (0.1.0)
-      rails (~> 5.2.3)
-
-PATH
-  remote: mount_two
-  specs:
-    mount_two (0.1.0)
       rails (~> 5.2.3)
 
 GEM
@@ -160,8 +149,6 @@ DEPENDENCIES
   dotenv-rails
   listen (>= 3.0.5, < 3.2)
   mount_one!
-  mount_three!
-  mount_two!
   mysql2 (>= 0.4.4, < 0.6.0)
   puma (~> 3.11)
   rails (~> 5.2.3)
