@@ -25,4 +25,8 @@ g_models:
 
 d_models:
 	@read -p "input engine name: " engine; \
-    cd $$engine && rails d model Account && rails g model Email
+    cd $$engine && rails d model Email
+
+i_migrations:
+	@read -p "input engine name: " engine; \
+	bundle exec rake $$engine:install:migrations

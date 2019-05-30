@@ -1,3 +1,3 @@
 Rails.application.routes.draw do
-  mount MountOne::Engine => "/mount_one"
+  mount MountOne::Engine, at: '/mount_one'
 end
