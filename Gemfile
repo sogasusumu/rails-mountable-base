@@ -45,6 +45,7 @@ end
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 gem 'dotenv-rails'
 
-gem 'one', path: 'one'
-gem 'two', path: 'two'
-gem 'three', path: 'three'
+gem 'mount_one', path: 'mount_one'
+gem 'mount_two', path: 'mount_two'
+
+gem 'mount_three', path: 'mount_three'
